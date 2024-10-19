@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tic-Tac-Toe with AI
 
-## Getting Started
+This project was created with the help of ChatGPT.
 
-First, run the development server:
+This project is a simple implementation of the classic game Tic-Tac-Toe, featuring an AI opponent that uses the Minimax algorithm for decision-making.
+
+ Features
+
+- Play against AI.
+- Score tracking for both the player and the computer.
+- Automatic game restart after a 2-second delay when the game ends.
+- AI tries to block winning moves from the player.
+
+ Technologies
+
+- React.js
+- JavaScript
+
+ Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/your-username/tic-tac-toe.git
+   ```
+
+2. Navigate into the project directory:
+
+   ```bash
+   cd tic-tac-toe
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+ Running the Application
+
+To start the development server, use the following command:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+ How to Play
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Choose whether to play as 'X' or 'O'.
+2. Click on a square to place your symbol.
+3. The AI will make its move in response.
+4. The game will automatically restart after 2 seconds when it ends.
 
-## Learn More
+ Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Feel free to open issues or submit pull requests if you want to contribute to this project.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
